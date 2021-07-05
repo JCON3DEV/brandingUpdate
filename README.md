@@ -1,5 +1,19 @@
 # brandingUpdate
 
+The following table provides a summary of the terms that are changing in accordance with the recent branding guidelines.
+
+When directly referenced in the documentation, all of the terms listed below should be updated to their rebranded counterparts as capabilities of Adobe Experience Platform.
+
+| Original Term  |Updated Term | Explanation  |Previous Example Sentence  | Current Branded Use |
+|---|---|---|---|---|
+| Platform Launch Server Side | event forwarding | x | x | x |
+| Edge configurations  |  datastreams | x | x | x |
+| Platform Launch | tags | x | x | x |
+
+The UI in Adobe Experience Platform that provides Platform Launch capabilities has now been renamed as the Data Collection UI. When a concept of capability is described as being "in" Launch, it is likely that the author is referring to the Data Collection UI, as previously this was the Launch UI.
+
+The table below offers more comprehensive guidance on the varying uses of the orriginal terms and how to apply the branding updates in a given situation.
+
 | Original Term  |Updated Term | Explanation  |Previous Example Sentence  | Current Branded Use |
 |---|---|---|---|---|
 |  **Launch Server Side** |  event forwarding | Launch Server Side is now event forwarding. It is written in lower case as it is a capability not a service.  | See the [Launch Server Side overview](...) and [Getting started with Experience Platform Launch Server Side](...) for more information.  | See the [event forwarding overview](...) and [Getting started with event forwarding](...) for more information.  |
