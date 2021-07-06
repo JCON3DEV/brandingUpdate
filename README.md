@@ -1,5 +1,6 @@
 # brandingUpdate
 
+
 The following table provides a summary of the terms that are changing in accordance with the recent branding guidelines.
 
 When directly referenced in the documentation, all of the terms listed below should be updated to their rebranded counterparts as capabilities of Adobe Experience Platform.
