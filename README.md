@@ -45,6 +45,38 @@ This sentence can be contracted as the context had already been established.
 
 > If the extensions, tags, and systems you are going to deploy are very similar across your sites or applications, you might want to include them in the same property. |
 
+### how to refer to extensions (tag extensions or event-forwarding extensions)
+
+<!-- Elaborate and write nicely -->
+When writing about extensions for both tags and event forwarding capabilities, the same format will be followed. The name of the extension (proper noun) will preceed the qualifier (either tag or event forwarding) followed by the word "extension" (common noun). This format can be seen in the following example. 
+
+> Learn about **the Adobe ContextHub extension in Adobe Experience Platform Launch**.
+
+Will become:
+
+> Learn about **the Adobe ContextHub tag extension in Adobe Experience Platform**.
+
+The context provided by "tag extension" or "event forwarding" negates the need for the wording "in Adobe Experience Platform", however it can be used to provide further contextual clarity on the first instance within the document.
+
+The branding changes regarding event forwarding are handled in the same way as tags because they too are a suite of technologies and not a branded service. Another example is provided below.
+
+<!-- Get a better example for event forwarding tags seen below -->
+
+> Learn about **the Server Side Cloud Connector extension** in Adobe Experience Platform Launch.
+
+Will become:
+
+> Learn about **the Cloud Connector event forwarding extension** in Adobe Experience Platform.
+
+<!-- End of extensions info -->
+
+### runtime, libraries, data elements, rules etc
+
+The stylistic approach of {proper noun} {tag/event forwarding} {common noun} is 
+
+| **The Launch runtime**  |  The tag runtime | Use the singular version of "tag" and "The" as an article when talking about a general concept/process rather than individual runtime events.  | **The Adobe Experience Platform Launch runtime** (delivered to clients' websites) is designed to support the following browsers:  | **The tag runtime** in Adobe Experience Platform (delivered to clients' websites) is compatible with multiple browsers:  |
+| **A Launch property**  | A tag property  | Use the singular version of "tag" when writing "tag {noun}" in a sentence. | When users install an extension to an Adobe Experience Platform **Launch property**, they will be shown the extension configuration view which your extension will provide.  | When users install an extension to **a tag property**, they will be shown the extension configuration view which your extension will provide.  |
+
 ### Example uses of original terms
 
 The table below offers more comprehensive guidance on the varying example uses of the original terms and how to apply the branding updates in a given situation. As any given term can be used in a variety of contexts, the table offers guidance on the nuance of the branding changes, including how they are applied and an explanation as to why.
@@ -52,17 +84,11 @@ The table below offers more comprehensive guidance on the varying example uses o
 | Example Use of Original Term  | Updated Wording | Explanation  |Previous Example Sentence  | Current Branded Use |
 |---|---|---|---|---|
 | **An Adobe Experience Platform Launch {noun}** | a tags-enabled {noun} | When tags is providing the functionality to the noun, the hyphenated "enabled" adds clarity to the sentence.  | This extension provides the functionality for adding the `Media` tracker instance to **an Adobe Experience Platform Launch site** or project.  | This extension provides the functionality for adding the `Media` tracker instance to **a tags-enabled site** or project.   |
-| **The Launch runtime**  |  The tag runtime | Use the singular version of "tag" and "The" as an article when talking about a general concept/process rather than individual runtime events.  | **The Adobe Experience Platform Launch runtime** (delivered to clients' websites) is designed to support the following browsers:  | **The tag runtime** in Adobe Experience Platform (delivered to clients' websites) is compatible with multiple browsers:  |
-| **A Launch property**  | A tag property  | Use the singular version of "tag" when writing "tag {noun}" in a sentence. | When users install an extension to an Adobe Experience Platform **Launch property**, they will be shown the extension configuration view which your extension will provide.  | When users install an extension to **a tag property**, they will be shown the extension configuration view which your extension will provide.  |
-| **the {noun} extension in Platform Launch**  |  the {noun} tag extension in Platform | The name of the extension will precede the tag qualifier. Later references to tags (Launch) are removed once context has been established.  | Learn about **the Adobe ContextHub extension in Adobe Experience Platform Launch**. | Learn about **the Adobe ContextHub tag extension in Adobe Experience Platform**.  |
+
 | **Adobe Experience Platform Launch {verb} ...**  | Adobe Experience Platform {verb} | "Launch" is not always necessary and can be omitted. When the sentence refers to Launch as a service it can often be replaced by referring to Platform. | **Adobe Experience Platform Launch provides** a unified catalog where users can view tag extensions that are available for installation. | **Adobe Experience Platform provides** a unified catalog where users can view tag extensions that are available for installation. |
 | **An edge extension in Launch** | an edge extension OR a tag extension in an edge property  | An edge extension is not to be confused with an edge configuration. Using "an edge extension" is fine for general use. This example only applies if more context is required.  | Learn how to define an action-type library module for an **edge extension in Adobe Experience Platform Launch.** | Learn how to define an action-type library module for **a tag extension in an edge property**.  |
 
-The following table provides an example of event forwarding branding guidelines. It is handled in the same way as tags in that it is a suite of technologies and not a branded service. It is referred to in lower case.
 
-| Original Term  |Updated Term | Explanation  |Previous Example Sentence  | Current Branded Use |
-|---|---|---|---|---|
-| **the Server Side Cloud Connector extension**  | the Cloud Connector event forwarding  extension	| The name of the extension will precede the "event forwarding extension" qualifier. Also, as context is established by the term "event forwarding", "Launch" can be removed from adjoining sentences.  | Learn about **the Server Side Cloud Connector extension** in Adobe Experience Platform Launch.  |  Learn about **the Cloud Connector event forwarding extension** in Adobe Experience Platform. |
 
 <!-- below is simply another example of when to use a tags-enabled {noun} it can probably be deleted. -->
 <!-- | **Platform Launch {noun}**  |  a tags-enabled {noun} | When tags is providing the functionality to the noun, the hyphenated "enabled" adds clarity to the sentence.  | After you have included all three of the extensions mentioned above in your Platform Launch project, you can proceed in one of two ways:  | After you have included all three of the extensions mentioned above in your **tags-enabled project**, you can proceed in one of two ways:  | -->
