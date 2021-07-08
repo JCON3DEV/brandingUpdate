@@ -7,9 +7,23 @@ An example of this logic can be seen in the use of the word "schemas". For examp
 
 | Original Term  |Updated Term | Explanation  |Previous Example Sentence  | Current Branded Use |
 |---|---|---|---|---|
-| **Platform Launch** **(Client Side)** | tags | If context is required by removing "Launch" from the sentence, you can append "in Adobe Experience Platform" on the first instance. Subsequent references can simply refer to the suite of technologies as tags. | What is **Platform Launch?**  | What are **tags in Adobe Experience Platform?** |
+| **Platform Launch** **(Client Side)** | tags | Simplistically speaking, "Platform Launch" is being replaced with the term tags. If context is required by removing "Launch" from the sentence, you can append "in Adobe Experience Platform" on the first instance to familiarize the reader. Subsequent references can simply refer to the suite of technologies as tags. | What is **Platform Launch?**  | What are **tags in Adobe Experience Platform?** |
 |  **Platform Launch Server Side** |  event forwarding | "Launch Server Side" is now "event forwarding".   | See the **Launch Server Side** overview for more information.  | See the **event forwarding overview** for more information.  |
 | **edge configuration**  |  datastream | The term "edge configuration" should be replaced with the lowercase noun "datastream". | Configure the Web SDK extension to send data to the **edge configuration** that you created previously.  | Configure the Web SDK tag extension to send data to the datastream created previously.  |
+
+## Other branding considerations
+
+"Platform Launch" was widely regarded as a service like Analytics or Experience Cloud. Its conceptual separation into "Adobe ExperiEnce Platform" and "tags" as separate entities defines tags as a set of capabilities and not a branded service. This logic also extends to the treatment of "event forwarding" (formerly "Launch Server Side"). Event forwarding is also a capability provided under the grouping of Data Collection capabilities. Aspects of the functionality previously attributed to the term "Launch" are now either encompassed by Platform (as a service) or determined by event forwarding and tags' capabilities.
+
+An example where the reference to "Launch" can be omitted because tags is a set of capabilities and not a service can be seen here as Platform provides the functionality described in the sentence.
+
+> **Platform Launch** passes `settings` into the rule’s condition-type library modules where conditions are then evaluated.
+
+In the sentence above "Launch" is no longer necessary as the sentence was referring to the service provided. This is not part of Adobes new tag management system but a function of Platform. Instead it should instead be written as:
+
+> **Platform** passes `settings` into the rule’s condition-type library modules where conditions are then evaluated.
+
+### References to the Launch UI
 
 The UI in Adobe Experience Platform that provides Platform Launch capabilities has now been renamed as the Data Collection UI. When a concept or capability is described as being "in" Launch, the author is likely referring to the Data Collection UI. An example of this can be seen below.
 
@@ -21,6 +35,8 @@ The sentence above can therefore be rewritten as:
 
 Despite "Adobe Experience Platform Data Collection" appearing in the UI, you should avoid having "Adobe Experience Platform" and "data collection" next to each other since it is not a branded service. "Data Collection" is only capitalized in reference to the UI or when it is directly referred to as category of capabilities, although that is rare.
 
+### Context and contractions
+
 Another consideration when rebranding is the unnecessary or excessive reference to "Launch" or "Platform Launch" if context has already been established. In some cases, naming the capability in the sentence may be obsolete and can be removed entirely. An example of this can be seen below.
 
 > If the extensions, tags, and systems you are going to deploy through **Platform Launch** are very similar across your sites or applications, you might want to include them in the same property.
@@ -29,11 +45,7 @@ This sentence can be contracted as the context had already been established.
 
 > If the extensions, tags, and systems you are going to deploy are very similar across your sites or applications, you might want to include them in the same property. |
 
-<!-- Break this down. Go into detail of how to tell if you're talking about Launch as a service (now Platform), versus Launch as a set of capabilities (tags or event forwarding) -->
-
-| **Platform Launch**  | Platform  | The reference to Launch is not always necessary if the sentence was referring to the service provided. In this case "Launch" can be omitted because tags is a set of capabilities and not a service. Here, Platform provides the functionality.  | **Platform Launch** passes `settings` into the rule’s condition-type library modules where conditions are then evaluated. | **Platform** passes `settings` into the rule’s condition-type library modules where conditions are then evaluated. |
-
-<!--  -->
+### Example uses of original terms
 
 The table below offers more comprehensive guidance on the varying example uses of the original terms and how to apply the branding updates in a given situation. As any given term can be used in a variety of contexts, the table offers guidance on the nuance of the branding changes, including how they are applied and an explanation as to why.
 
@@ -46,7 +58,7 @@ The table below offers more comprehensive guidance on the varying example uses o
 | **Adobe Experience Platform Launch {verb} ...**  | Adobe Experience Platform {verb} | "Launch" is not always necessary and can be omitted. When the sentence refers to Launch as a service it can often be replaced by referring to Platform. | **Adobe Experience Platform Launch provides** a unified catalog where users can view tag extensions that are available for installation. | **Adobe Experience Platform provides** a unified catalog where users can view tag extensions that are available for installation. |
 | **An edge extension in Launch** | an edge extension OR a tag extension in an edge property  | An edge extension is not to be confused with an edge configuration. Using "an edge extension" is fine for general use. This example only applies if more context is required.  | Learn how to define an action-type library module for an **edge extension in Adobe Experience Platform Launch.** | Learn how to define an action-type library module for **a tag extension in an edge property**.  |
 
-The following table provides an example of event forwarding branding guidelines. It is handled in the same way as tags in that it is a suite of technologies and not a Branded service. It is referred to in lower case.
+The following table provides an example of event forwarding branding guidelines. It is handled in the same way as tags in that it is a suite of technologies and not a branded service. It is referred to in lower case.
 
 | Original Term  |Updated Term | Explanation  |Previous Example Sentence  | Current Branded Use |
 |---|---|---|---|---|
