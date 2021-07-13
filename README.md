@@ -59,7 +59,7 @@ When tags are providing functionality to something else (like an app or a websit
 
 ### Referring to extensions
 
-Writing about extensions for both tags and event-forwarding capabilities follows the same format as dealing with common nouns. The name of the extension (proper noun) precedes the qualifier (either "tag" or "event-forwarding") followed by the word "extension". For example: "the Adobe Privacy tag extension. This format can be seen in the following examples. 
+Writing about extensions for both tags and event-forwarding capabilities follows the same format as dealing with common nouns. The name of the extension (a proper noun) precedes the qualifier (either "tag" or "event-forwarding") followed by the word "extension". For example: "the Adobe Privacy tag extension. This format can be seen in the following examples. 
 
 | Original example | Updated sentence |
 | --- | --- |
